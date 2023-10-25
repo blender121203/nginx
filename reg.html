@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница Регестрации</title>
+    <link rel='stylesheet' href='./style_reg/style.css'>
+    <link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont2">
+            <div class="Logo-cont">
+                <img src="./img/Что-то типо логотип.svg">
+                <p>Spika</p>
+            </div>
+            <div class="Reg-cont">
+                <div class="Text-Reg-cont">
+                    <p>Регистрация в системе </p>
+                </div>
+            </div>
+            <div class="Vhod-cont">
+                <div class="Login-cont">
+                    <div class="Login-cont-text">
+                        <p>Логин</p>
+                    </div>
+                    <div class="Login-text-Pole">
+                        <input class="Login-text-btn" type="text" placeholder="Введите логин">
+                    </div>
+                </div>
+                <div class="Email-cont">
+                    <div class="Email-cont-text">
+                        <p>Эл. Почта</p>
+                    </div>
+                    <div class="Email-text-Pole">
+                        <input class="Email-text-btn" type="text" placeholder="Введите почту">
+                    </div>
+                </div>
+                <div class="Passworld-cont">
+                    <div class="Passworld-cont-text">
+                        <p>Пароль</p>
+                    </div>
+                    <div class="Passworld-text-Pole">
+                        <input class="Passworld-text-btn" type="password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder=" Введите пароль" name="password ">
+                    </div>
+                </div>
+
+
+                <div class="blok-prim ">
+                    <div class="blok-prim-1 ">
+                        <ul>
+                            <li>Используйте 8 или более символов</li>
+                        </ul>
+                    </div>
+                    <div class="blok-prim-2 ">
+                        <ul>
+                            <li>Один заглавный символ</li>
+                        </ul>
+                    </div>
+                    <div class="blok-prim-3 ">
+                        <ul>
+                            <li>Одину цифру</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Podtver-cont">
+                    <div class="Podtver-cont-text">
+                        <p>Подтвердите пароль</p>
+                    </div>
+                    <div class="Podtver-text-Pole">
+                        <input class="Podtver-text-btn" type="password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Введите пароль" name="password ">
+                    </div>
+                </div>
+            </div>
+            <div class="cont-button ">
+                <button class="button1">Зарегистрироваться</button>
+                <p><a href="index.html" class="Regist">Войти в систему</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
